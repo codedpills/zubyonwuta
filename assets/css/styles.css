@@ -4236,6 +4236,10 @@ color:#007AB9;
   text-decoration: none;
 }
 
+.description ul li a {
+  color: #7996dd;
+}
+
 .left-wrap{
    background: #565656;
    padding: 30px 0;
@@ -5669,6 +5673,35 @@ text-align: center;
   border: 3px solid #fff;
   border-radius: 5%;
 }
+
+/* Safari 7.1+ */
+_::-webkit-full-page-media, _:future, :root .safari_only {
+   .profile-pic {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .dp {
+    height: 170px;
+    width: 250px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+  }
+}
+
+/* Safari 10.1+ (alternate method) */
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+  .profile-pic {
+    text-align: center;
+    margin-top: 30px;
+  }
+    .dp {
+    height: 170px;
+    width: 250px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+  }
+}}
 
 
 /* Small devices (tablets, 768px and up) */
