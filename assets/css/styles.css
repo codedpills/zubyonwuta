@@ -677,7 +677,7 @@ font-size: 15px;
 }
 
 .nav-tabs>li.active>a {
-background: #d6a73a !important;
+background: #71706e !important;
 font-weight: bold;
 font-size: 18px;
 color: #ffffff !important;
@@ -694,7 +694,7 @@ border: none !important;
 }
 
 .nav-tabs>li.active>a:visited {
-background: #d6a73a !important;
+background: #bdbab4 !important;
 font-weight: bold;
 font-size: 18px;
 color: #ffffff !important;
@@ -2142,7 +2142,6 @@ margin: 0px;
   /* NEW, Spec - Opera 12.1, Firefox 20+ */
   text-align: center;
   position: relative;
-    border-bottom: 6px solid #d6a73a;
 }
 .nav-tabs:before {
   content: "";
@@ -2179,9 +2178,14 @@ flex: 1;
   padding: 15px;
   font-size: 17px;
   font-weight: bold;
-  background: #fafafa;
   border: none;
 }
+
+
+.nav-tabs > li > a:active {
+  background-color: grey;
+}
+
 .nav-tabs > li > a .fa {
   font-size: 20px;
 }
@@ -4422,7 +4426,7 @@ hr {
 
 .activity-wrapper{
     min-height: 10px;
-    margin: 100px 40px 60px 40px;
+    margin: 70px 40px 60px 40px;
 }
 
 .info-dash-wrapper{
