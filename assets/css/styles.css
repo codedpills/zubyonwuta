@@ -5995,5 +5995,10 @@ padding-top: 199px;
 font-style: italic !important;
 font-family: Tahoma !important;
 font-weight: normal !important;
+}
 
+
+.award-icon {
+  width: 60px;
+  height: 50px;
 }
